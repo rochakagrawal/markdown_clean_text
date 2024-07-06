@@ -37,6 +37,9 @@ This Python script converts Markdown text from your clipboard to HTML (Rich Text
 3. The resulting HTML is placed on the clipboard using macOS's AppKit.
 4. You can then paste the formatted content into your application of choice.
 
+## Raycast Script
+I love raycast so I am using this python script as my raycast script. It's super easy to first copy the markdown text in my clipboard, run this script on raycast using keyboard, and have the formatted output in my clipboard to paste
+
 ## Limitations
 
 - Currently only works on macOS due to the use of AppKit for clipboard operations.
