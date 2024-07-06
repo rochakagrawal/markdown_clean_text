@@ -41,6 +41,10 @@ While it's relatively easy to convert Markdown to HTML, you won't be able to sim
 ## Raycast Script
 I love raycast so I am using this python script as my raycast script. It's super easy to first copy the markdown text in my clipboard, run this script on raycast using keyboard, and have the formatted output in my clipboard to paste
 
+## Video
+
+https://youtu.be/044KqR8irZA
+
 ## Limitations
 
 - Currently only works on macOS due to the use of AppKit for clipboard operations.
