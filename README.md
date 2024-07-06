@@ -1,10 +1,10 @@
 # Markdown to HTML Clipboard Converter
 
-This Python script converts Markdown text from your clipboard to HTML, preserving formatting when pasting into rich text applications like Microsoft Word or Apple Pages.
+This Python script converts Markdown text from your clipboard to HTML (Rich Text format, **without html tags**), preserving formatting when pasting into rich text applications like Microsoft Word or Apple Pages or Microsoft OneNote.
 
 ## Features
 
-- Converts Markdown to HTML using Pandoc
+- Converts Markdown to HTML using Pandoc Rich Text format, **without html tags**),
 - Automatically detects if clipboard content is likely Markdown
 - Places converted HTML directly on the clipboard for easy pasting
 - Works on macOS
@@ -24,7 +24,7 @@ This Python script converts Markdown text from your clipboard to HTML, preservin
 ## Usage
 
 1. Copy your Markdown text to the clipboard.
-2. Run the script:**python markdown_to_html.py**
+2. Run the script:**python markdown_to_rtf.py**
 
 3. 3. The script will convert the Markdown to HTML and place it on your clipboard.
 4. Paste the converted content into your desired application (e.g., MS Word, Apple Pages).
