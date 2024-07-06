@@ -19,7 +19,7 @@ While it's relatively easy to convert Markdown to HTML, you won't be able to sim
 
 ## Installation
 
-1. Clone this repository:
+1. Clone this repository (download the single python file)
 2. Install the required Python packages:**pip install pypandoc pyperclip pyobjc**
 3. Install Pandoc (if not already installed):**brew install pandoc**
 
@@ -27,8 +27,7 @@ While it's relatively easy to convert Markdown to HTML, you won't be able to sim
 
 1. Copy your Markdown text to the clipboard.
 2. Run the script:**python markdown_to_rtf.py**
-
-3. 3. The script will convert the Markdown to HTML and place it on your clipboard.
+3. The script will convert the Markdown to HTML and place it on your clipboard.
 4. Paste the converted content into your desired application (e.g., MS Word, Apple Pages).
 - Use "Paste and Match Style" or similar options for best results.
 
