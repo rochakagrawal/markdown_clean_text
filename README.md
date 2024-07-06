@@ -1,6 +1,8 @@
-# Markdown to HTML Clipboard Converter
+# Markdown to HTML Clipboard Converter (without HTML tags, Rich Text format)
 
 This Python script converts Markdown text from your clipboard to HTML (Rich Text format, **without html tags**), preserving formatting when pasting into rich text applications like Microsoft Word or Apple Pages or Microsoft OneNote.
+
+While it's relatively easy to convert Markdown to HTML, you won't be able to simply paste the text into MS Word or Apple Notes, as they can't render the HTML. This special script allows you to do just that. If you love it, please say that in comments.
 
 ## Features
 
